@@ -1,2 +1,2 @@
-# Just add `#` in front of the below line to hide the temporary page, and remove it to show the temporary page.
+# Just add `\#` in front of the below line to hide the temporary page, and remove it to show the temporary page.
 DirectoryIndex under_construction.html index.html index.php
