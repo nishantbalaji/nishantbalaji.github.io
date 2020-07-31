@@ -1,2 +1,2 @@
-# Just add `DirectoryIndex` in front of the below line to hide the temporary page, and remove it to show the temporary page.
-temporary_page.html index.html
+# Just add `#` in front of the below line to hide the temporary page, and remove it to show the temporary page.
+DirectoryIndex temporary_page.html index.html index.php
