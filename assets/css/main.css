@@ -24,6 +24,7 @@
  *  16. stats
  *  17. contact
  *  18. footer
+ *  19. text switcher
  *
  * ===================================================================
  */
@@ -39,43 +40,6 @@
 @import url("fonts.css");
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
-
-.switcher {
-	font-family: "lora-regular", serif;
-	font-size: 1.7rem;
-	line-height: 2.4rem;
-	text-transform: uppercase;
-	letter-spacing: .2rem;
-	color: #FFFFFF;
-	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
-	content: "|";
-	text-align: center;
-	display: inline-block;
-	padding: 0 14px 0 8px;
-  /*background-color:#212121;*/
-  position: absolute;
-  top:50%;
-  left:50%;
-  transform:translate(-50%,-50%);
-  /*user-select:none;
-  cursor:default;/*It's here if you want it*/
-}
-.switcher .shift {
-  display:none;
-}
-
-.log {
-  position: absolute;
-  top:8px;
-  right:10px;
-  font-size:24px;
-}
-
-
-
-
-
-
 
 
 
@@ -1172,6 +1136,30 @@ button::-moz-focus-inner, input::-moz-focus-inner {
    margin: 0;
  }
 
+ .header-name {
+	 display: inline-block;
+   margin: 6px 0 0 0;
+   padding: 0;
+   -webkit-transform: translate3d(0, -50%, 0);
+   transform: translate3d(0, -50%, 0);
+   position: absolute;
+   top: 50%;
+   left: 40px;
+	 width: 132px;
+	 height: 36px;
+	 margin: 0;
+ }
+
+ .header-name a {
+   display: block;
+   margin: 0;
+   padding: 100;
+   outline: 0;
+   border: none;
+   transition: all .3s;
+ }
+
+
  /* -------------------------------------------------------------------
   * ## main navigation
   * ------------------------------------------------------------------- */
@@ -1444,7 +1432,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * -------------------------------------------------------------------
  */
 #intro {
-	background: #151515 url(../images/intro-bg.jpg) no-repeat center bottom;
+	background: #151515 url(../images/bwbg.jpg) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -2747,3 +2735,48 @@ footer .copyright span:last-child::after {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+
+/**
+ * ===================================================================
+ * 19. marquee text
+ *
+ * -------------------------------------------------------------------
+ */
+
+.switcher {
+	font-family: "poppins-bold", sans-serif;
+	font-size: 2.3rem;
+	line-height: 1.565;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	letter-spacing: .3rem;
+	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+	color: #FFFFFF;
+	content: "|";
+	text-align: center;
+	display: inline-block;
+	padding: 0 14px 0 8px;
+  /*background-color:#212121;
+
+
+
+
+	*/
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  /*user-select:none;
+  cursor:default;/*It's here if you want it*/
+}
+.switcher .shift {
+  display:none;
+}
+
+.log {
+  position: absolute;
+  top:8px;
+  right:10px;
+  font-size:24px;
+}
