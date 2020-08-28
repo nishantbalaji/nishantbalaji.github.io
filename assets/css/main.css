@@ -29,6 +29,7 @@
  */
 
 
+
 /**
  * ===================================================================
  * 01. webfonts and iconfonts - (_document-setup.scss)
@@ -38,6 +39,44 @@
 @import url("fonts.css");
 @import url("font-awesome/css/font-awesome.min.css");
 @import url("micons/micons.css");
+
+.switcher {
+	font-family: "lora-regular", serif;
+	font-size: 1.7rem;
+	line-height: 2.4rem;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	color: #FFFFFF;
+	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+	content: "|";
+	text-align: center;
+	display: inline-block;
+	padding: 0 14px 0 8px;
+  /*background-color:#212121;*/
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  /*user-select:none;
+  cursor:default;/*It's here if you want it*/
+}
+.switcher .shift {
+  display:none;
+}
+
+.log {
+  position: absolute;
+  top:8px;
+  right:10px;
+  font-size:24px;
+}
+
+
+
+
+
+
+
 
 
 /**
