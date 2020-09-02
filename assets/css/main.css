@@ -43,13 +43,16 @@
 
 
 
+/*
+html, body {
+  background: #F7F5E6;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
 
 .slider {
-	background: #F7F5E6;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	width: 100%;
   margin: 0 auto;
   max-width: 940px;
 }
@@ -177,7 +180,7 @@ a.slide_btn {
 }
 
 
-
+*/
 
 
 
