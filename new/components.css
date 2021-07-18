@@ -1,9 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-/* @import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap'); */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --fade-gray: #333333;
+  --name-white: #ffeeee;
+  --shadow1: #44b4ff;
+  --shadow2: #44a5ff;
+  --off: #000000;
+}
+
+/* Neon Name Styling */
 
 .name {
-  display: flex;
   text-align: center;
   width: 65%;
   height: 250px;
@@ -16,14 +28,54 @@
   user-select: none;
 }
 
+/* .name b first{
+  animation: blinkOnFirst ease 4s;
+}
+
+.name b last{
+  animation: blinkOnLast ease 4s;
+}
+
+
+@keyframes blinkOnFirst {
+  0% {
+      opacity: 0;
+  } 
+  27% {
+    opacity: 0;
+  }
+  28% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 0;
+  }
+}
+
+@keyframes blinkOnLast {
+  0% {
+      opacity: 0;
+  }
+  2% {
+    opacity: 1;
+  }
+  7% {
+    opacity: 0;
+  }
+} */
+
+
 .name b{
-  font: 400 10vh "Pacifico";
-  color: #fee;
-  text-shadow: 0 -40px 100px, 0 0 2px, 
-               0 0 1em #44b4ff, 
-               0 0 0.5em #44a5ff, 
-               0 0 0.1em #44a5ff, 
-               0 10px 3px #000;
+  font-weight: 400;
+  font-size: 20vh;
+  font-family: "Pacifico";
+  color: var(--name-white);
+  text-shadow: 0 -40px 100px, 
+               0 0 2px, 
+               0 0 1em var(--shadow1), 
+               0 0 0.5em var(--shadow2), 
+               0 0 0.1em var(--shadow2), 
+               0 10px 3px var(--off);
 }
 
 .name b span{
@@ -44,15 +96,15 @@
 
 .name b span:nth-of-type(5){
   animation: blink linear infinite 4s;
-}
+} 
 
-@keyframes blink {
+ @keyframes blink {
   78% {
     color: inherit;
     text-shadow: inherit;
   }
   79%{
-     color: #333;
+     color: var(--fade-gray);
   }
   80% {
     
@@ -63,7 +115,7 @@
     text-shadow: inherit;
   }
   82% {
-    color: #333;
+    color: var(--fade-gray);
     text-shadow: none;
   }
   83% {
@@ -71,7 +123,7 @@
     text-shadow: inherit;
   }
   92% {
-    color: #333;
+    color: var(--fade-gray);
     text-shadow: none;
   }
   92.5% {
