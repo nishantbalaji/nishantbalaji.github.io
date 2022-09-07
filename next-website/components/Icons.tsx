@@ -13,7 +13,7 @@ const socials = [
     },
     {
         name: "linkedin",
-        link: "https://www.linkedin.com/in/nishant-balaji/",
+        link: "https://www.linkedin.com/in/nishantbalaji/",
         icon: faLinkedinIn,
         color: "bg-blue-600"
     },
