@@ -15,13 +15,13 @@ const Intro: React.FC<object> = () => {
 
     return (
         <div>
-            <h1 className="items-center text-5xl text-center">
+            <h1 className="items-center text-2xl text-center md:text-5xl">
                 hello, world! 👋
             </h1>
-            <h1 className="mb-8 text-center text-8xl">
+            <h1 className="mb-8 text-4xl text-center md:text-8xl">
                 i'm <span className="text-blue-600"> nishant balaji</span>
             </h1>
-            <div className="flex justify-center mt-8">
+            <div className="flex justify-center md:mt-8">
                 <ReactTypingEffect
                     text={titles}
                     speed={100}

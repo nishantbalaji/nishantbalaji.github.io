@@ -6,12 +6,12 @@ import NavBar from "../components/NavBar";
 
 const HomeSlide = () => {
     return (
-        <div className="flex flex-col items-center h-screen pt-32 mx-32">
+        <div className="flex flex-col items-center h-screen pt-12 mx-12 md:mx-32 md:pt-32">
             <div className="flex flex-col h-full w-fit font-general">
                 <Intro />
-                <div className="mt-48 text-xl text-center max-w-prose">
+                <div className="mt-8 text-center md:mt-48 text-md md:text-xl max-w-prose">
                     <p >
-                        i'm currently a third year student at <span className="underline decoration-yellow-300 underline-offset-2">uc san diego 🔱</span> studying computer engineering. i'm passionate about technology and i love learning more and exploring the field! 
+                        i'm currently a third year student at <span className="underline decoration-yellow-300 underline-offset-2">uc san diego 🔱</span> studying computer engineering. i'm passionate about technology and i love learning more and exploring the field!
                     </p>
                     <br />
                     <p>

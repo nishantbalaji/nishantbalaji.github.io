@@ -40,11 +40,11 @@ const socials = [
 
 const Icons: React.FC<object> = () => {
     return (
-        <div className="flex justify-center mt-4 space-x-8">
+        <div className="flex justify-center mt-4 md:space-x-8">
         {socials.map(item => {
             return (
-                <a href={item.link} className={`content-center text-3xl shadow-lg rounded-3xl transition ease-[cubic-bezier(0.3130,-0.105,0.430,1.590) inline-block hover:bg-slate-600 hover:translate-x-2.5 overflow-hidden hover:scale-110  `} key={item.name}>
-                    <FontAwesomeIcon className="transition p-8 ease-[cubic-bezier(0.3130,-0.105,0.430,1.590) hover:scale-110 hover:text-white" icon={item.icon} />
+                <a href={item.link} className={`content-center text-lg md:text-3xl shadow-lg rounded-3xl md:transition ease-[cubic-bezier(0.3130,-0.105,0.430,1.590) md:inline-block md:hover:bg-slate-600 md:hover:translate-x-2.5 md:overflow-hidden md:hover:scale-110  `} key={item.name}>
+                    <FontAwesomeIcon className="transition p-6 md:p-8 ease-[cubic-bezier(0.3130,-0.105,0.430,1.590) hover:scale-110 hover:text-white" icon={item.icon} />
                 </a>
             )
         })}
