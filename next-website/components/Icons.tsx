@@ -31,7 +31,7 @@ const socials = [
     },
     {
         name: "meet",
-        link: "meet.nishantbalaji.com",
+        link: "https://meet.nishantbalaji.com",
         icon: faHandshake,
         color: "bg-gray-600"
 
