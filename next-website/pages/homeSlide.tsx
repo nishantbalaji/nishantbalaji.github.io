@@ -11,11 +11,11 @@ const HomeSlide = () => {
                 <Intro />
                 <div className="mt-8 text-center md:mt-48 text-md md:text-xl max-w-prose">
                     <p >
-                        i'm currently a third year student at <span className="underline decoration-yellow-300 underline-offset-2">uc san diego 🔱</span> studying computer engineering. i'm passionate about technology and i love learning more and exploring the field!
+                        i&apos;m currently a third year student at <span className="underline decoration-yellow-300 underline-offset-2">uc san diego 🔱</span> studying computer engineering. i&apos;m passionate about technology and i love learning more and exploring the field!
                     </p>
                     <br />
                     <p>
-                        i've previously interned at <span className="font-semibold text-green-800">nvidia</span> and <span className="font-semibold text-blue-600">nasa goddard space flight center</span>. at ucsd, i'm currently the vice president of events for the <a href="https://acmucsd.com" className="font-semibold text-blue-800"> association for computing machinery (acm) at uc san diego student chapter</a> as well as a developer for <a href="https://tse.ucsd.edu" className="font-semibold text-yellow-600"> triton software engineering (tse)</a> on the lap student tracker team. 
+                        i&apos;ve previously interned at <span className="font-semibold text-green-800">nvidia</span> and <span className="font-semibold text-blue-600">nasa goddard space flight center</span>. at ucsd, i&apos;m currently the vice president of events for the <a href="https://acmucsd.com" className="font-semibold text-blue-800"> association for computing machinery (acm) at uc san diego student chapter</a> as well as a developer for <a href="https://tse.ucsd.edu" className="font-semibold text-yellow-600"> triton software engineering (tse)</a> on the lap student tracker team. 
                     </p>
                     <br />
                     <p>
