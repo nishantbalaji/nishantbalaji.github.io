@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/NavBar"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/NavBar", "components/useDarkMode.js"],
   "exclude": ["node_modules"]
 }
