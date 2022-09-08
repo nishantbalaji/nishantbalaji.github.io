@@ -6,7 +6,7 @@ import HomeSlide from './homeSlide'
 const Home: NextPage = () => {
 
   return (
-    <div className="flex flex-col items-center justify-center w-screen h-screen">
+    <div>
       <Head >
         <title>nishant balaji</title>
       </Head>
