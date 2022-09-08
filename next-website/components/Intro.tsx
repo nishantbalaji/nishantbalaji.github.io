@@ -15,10 +15,10 @@ const Intro: React.FC<object> = () => {
 
     return (
         <div>
-            <h1 className="items-center text-2xl text-center md:text-5xl">
+            <h1 className="items-center text-2xl text-center md:text-4xl lg:text-5xl">
                 hello, world! 👋
             </h1>
-            <h1 className="mb-8 text-4xl text-center md:text-8xl">
+            <h1 className="mb-8 text-4xl text-center md:text-6xl lg:text-8xl">
                 i&apos;m <span className="text-blue-600"> nishant balaji</span>
             </h1>
             <div className="flex justify-center md:mt-8">
